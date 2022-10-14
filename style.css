@@ -5,10 +5,27 @@
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
-  padding: 20px;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .trybewarts-header-logo {
-  width: 50px;
+  width: 70px;
   height: auto;
+}
+
+.btn-send {
+  background-color: #4E2C83 !important;
+  border: 1px solid white !important;
+}
+
+form {
+  display: flex;
+  flex-direction: row nowrap;
+}
+
+form input {
+  width: 170px !important;
+  margin-right: 20px;
 }
