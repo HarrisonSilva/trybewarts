@@ -148,3 +148,13 @@ textarea {
   width: 100%;
   height: 100px;
 }
+
+#submit-btn {
+  width: 80%;
+}
+
+#submit-btn:disabled {
+  background-color: rgb(78, 44, 131);
+  opacity: 50%;
+  border: 2px solid rgb(78, 44, 131);
+}

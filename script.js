@@ -15,3 +15,17 @@ function clicaButao() {
 }
 
 clicaButao();
+
+const checkBox = document.getElementById('agreement');
+const btn = document.getElementById('submit-btn');
+btn.disabled = true;
+
+function clicaCheckBox() {
+  if (checkBox.checked) {
+    btn.disabled = false;
+  } else {
+    btn.disabled = true;
+  }
+}
+
+checkBox.addEventListener('click', clicaCheckBox);
