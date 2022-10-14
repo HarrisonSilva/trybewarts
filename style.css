@@ -81,7 +81,39 @@ main {
   font-family: Inknut Antiqua, serif;
 }
 
-#familia {
+#familia , #conteudo {
   display: flex;
   flex-flow: column;
+  flex-grow: 1;
+  flex-basis: 50%;
+}
+
+.line-checkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: flex-start;
+}
+
+.line-checkbox div {
+  margin: 10px 10px 10px 0px;
+}
+
+#familia-conteudo {
+  align-items: flex-start;
+}
+
+#avalia {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#avalia-radio {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+#avalia-radio label {
+  margin-right: 15px;
 }
