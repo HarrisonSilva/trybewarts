@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Inknut Antiqua, serif;
+  font-weight: 300;
+}
 /* Header */
 .header {
   display: flex;
@@ -20,7 +24,7 @@
 
 /* Meu Titulo */
 h1 {
-  font-family: Inknut Antiqua, serif;
+  font-weight: 700;
   color: white;
 }
 
@@ -66,21 +70,18 @@ main {
 }
 
 /* imputs de formulario */
-
 #evaluation-form section {
   display: flex;
-  flex-direction: row;
-  margin: 0px;
+  margin: 0 0 10px;
   justify-content: space-evenly;
-  margin-bottom: 10px;
   align-items: center;
 }
 
-#evaluation-form section input {
-
+.label {
+  font-family: Inknut Antiqua, serif;
 }
 
-.label {
-font-family: Inknut Antiqua, serif;
-
+#familia {
+  display: flex;
+  flex-flow: column;
 }
