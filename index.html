@@ -38,7 +38,8 @@
   <!-- Pagina Principal -->
   <main>
     <form action="" id="evaluation-form">
-      <section>
+      <h2>Form</h2>
+      <section id="email-nome">
         <input type="text" id="input-name" placeholder="Nome" class="form-control">
         <input type="text" id="input-lastname" placeholder="Sobrenome" class="form-control">
       </section>
@@ -101,7 +102,7 @@
           </section>
         </section>
       </section>
-      <hr>
+      <hr id="hr2">
       <section id="avalia">
         <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
         <section id="avalia-radio">
@@ -137,11 +138,14 @@
           </label>
         </section>
       </section>
+      <section id="section-textarea">
+        <label for="textarea" class="textarea">Deixe seu comentário:</label>
+        <textarea id="textarea" maxlength="500"></textarea>
+      </section>
     </form>
     <section>
       <img src="/images/trybewarts-colored.svg" id="trybewarts-forms-logo" alt="Logo do Trybewarts">
     </section>
-
   </main>
   <script src="script.js"></script>
 </body>
