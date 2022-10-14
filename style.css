@@ -25,13 +25,13 @@ h1 {
 }
 
 /* Formulario de login */
-form {
+.trybewarts-login {
   display: flex;
   flex-direction: row nowrap;
   max-width: 500px;
 }
 
-form input {
+.trybewarts-login input {
   margin-right: 20px;
   flex-grow: 1;
 }
@@ -45,7 +45,11 @@ form input {
 
 /* Main */
 main {
+  margin-top: 20px;
   display: flex;
+  flex-direction: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 /* Formulario da main */
@@ -53,4 +57,10 @@ main {
   display: flex;
   width: 675px;
   flex-direction: column;
+  height: 500px;
+  border: 2px solid black;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
 }
