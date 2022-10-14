@@ -1,30 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TrybeWarts</title>
-  <link rel="stylesheet" href="style.css">
-  <!-- CSS only -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-</head>
-<body>
-  <header class="header">
-    <section>
-      <img src="/images/trybewarts-header-logo.svg" alt="logo_trybewarts" class="trybewarts-header-logo">
-    </section>
-    <section>
-      <form action="" class="trybewarts-login">
-        <input type="email" placeholder="Email" class="form-control" id="header-email" name="email">
-        <input type="password" placeholder="Senha" class="form-control" id="header-senha" name="password">
-        <button class="btn-send btn btn-primary">Entrar</button>
-      </form>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TrybeWarts</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
 
-    </section>
-  </header>
-
-
-  <script src="script.js"></script>
-</body>
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <section id="section-1">
+        <img
+          src="/images/trybewarts-header-logo.svg"
+          alt="logo_trybewarts"
+          class="trybewarts-header-logo"
+        />
+      </section>
+      
+      <h1 id="trybewarts-header-title">Trybewarts</h1>
+      
+      <section id="section-2">
+        <form action="" class="trybewarts-login">
+          <input
+            type="email"
+            placeholder="Email"
+            class="form-control"
+            id="header-email"
+            name="email"
+          />
+          <input
+            type="password"
+            placeholder="Senha"
+            class="form-control"
+            id="header-senha"
+            name="password"
+          />
+          <button class="btn-send btn btn-primary">Entrar</button>
+        </form>
+      </section>
+    </header>
+    <script src="script.js"></script>
+  </body>
 </html>

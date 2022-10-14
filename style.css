@@ -11,8 +11,9 @@
 }
 
 .trybewarts-header-logo {
-  width: 70px;
+  width: 60px;
   height: auto;
+  margin-left: 10px;
 }
 
 .btn-send {
@@ -28,4 +29,9 @@ form {
 form input {
   width: 170px !important;
   margin-right: 20px;
+}
+
+h1 {
+  font-family: 'Inknut Antiqua', serif;
+  color: white;
 }
