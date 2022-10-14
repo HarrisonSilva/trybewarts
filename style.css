@@ -64,3 +64,17 @@ main {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+/* imputs de formulario */
+
+#evaluation-form section {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+
+#evaluation-form section input {
+  width: 300px;
+}
