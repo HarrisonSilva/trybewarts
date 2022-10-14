@@ -1,7 +1,8 @@
-*, *::after, *::before {
+* , *:after , *:before {
   box-sizing: border-box;
 }
 
+/* Header */
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
@@ -10,28 +11,45 @@
   align-items: center;
 }
 
+/* Minha Logo */
 .trybewarts-header-logo {
   width: 60px;
   height: auto;
   margin-left: 10px;
 }
 
-.btn-send {
-  background-color: #4E2C83 !important;
-  border: 1px solid white !important;
+/* Meu Titulo */
+h1 {
+  font-family: Inknut Antiqua, serif;
+  color: white;
 }
 
+/* Formulario de login */
 form {
   display: flex;
   flex-direction: row nowrap;
+  max-width: 500px;
 }
 
 form input {
-  width: 170px !important;
   margin-right: 20px;
+  flex-grow: 1;
 }
 
-h1 {
-  font-family: 'Inknut Antiqua', serif;
-  color: white;
+/* Botão */
+.btn-send {
+  background-color: rgb(78, 44, 131);
+  border: 1px solid white;
+  flex-grow: 1;
+}
+
+/* Main */
+main {
+  display: flex;
+}
+
+/* Formulario da main */
+#evaluation-form {
+  display: flex;
+  width: 675px;
 }
